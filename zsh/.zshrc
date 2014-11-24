@@ -1,6 +1,7 @@
 # .zshrc
 
 ###
+export EDITOR='vim'
 
 ### for zsh
 autoload -U compinit; compinit
@@ -84,6 +85,10 @@ function cdup() {
 zle -N cdup
 #bindkey '^K' cdup
 #bindkey '^R' history-incremental-search-backward
+
+### for tmuxinator
+. ~/git/dotfiles/tmuxinator/tmuxinator.zsh
+
 
 ### for other
 function chpwd() {
