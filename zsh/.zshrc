@@ -60,7 +60,9 @@ function vcs_prompt_info() {
 OK="o"
 NG="x"
 
-PROMPT="%n@%m "
+PROMPT="
+"
+PROMPT+="%n@%m "
 PROMPT+="%F{cyan}%~"
 PROMPT+="\$(vcs_prompt_info)"
 PROMPT+="
