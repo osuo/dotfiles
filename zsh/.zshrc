@@ -1,5 +1,14 @@
 # .zshrc
 
+# os別設定
+case $OSTYPE
+  darwin*)
+    export JAVA_HOME=`/usr/libexec/java_home`
+    ;;
+  linux*)
+    ;;
+esac
+
 ###
 export EDITOR='vim'
 
@@ -101,3 +110,6 @@ function settitle() {
 	echo -ne "\033]0;"$*"\007"
 }
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/hagi/.gvm/bin/gvm-init.sh" ]] && source "/Users/hagi/.gvm/bin/gvm-init.sh"
