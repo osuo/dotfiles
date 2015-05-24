@@ -1,7 +1,7 @@
 # .zshrc
 
 # os別設定
-case $OSTYPE
+case $OSTYPE in
   darwin*)
     export JAVA_HOME=`/usr/libexec/java_home`
     ;;
