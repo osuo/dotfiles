@@ -98,7 +98,7 @@ zle -N cdup
 #bindkey '^R' history-incremental-search-backward
 
 ### for tmuxinator
-. ~/git/dotfiles/tmuxinator/tmuxinator.zsh
+#. ~/git/dotfiles/tmuxinator/tmuxinator.zsh
 
 
 ### for other
