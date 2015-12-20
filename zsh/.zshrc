@@ -118,5 +118,3 @@ function settitle() {
 export SDKMAN_DIR="/Users/hagi/.sdkman"
 [[ -s "/Users/hagi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/hagi/.sdkman/bin/sdkman-init.sh"
 
-#
-export HOMEBREW_GITHUB_API_TOKEN=8abcb2d0ebb54a049a14f650ab415b046c127141
