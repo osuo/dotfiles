@@ -36,6 +36,7 @@ typeset -U path cdpath fpath manpath
 # (N-/)でディレクトリの存在をチェックして除外してくれる
 path=(
 	$HOME/bin(N-/)
+	$HOME/.nodebrew/current/bin(N-/)
 	/usr/local/bin(N-/)
 	/usr/local/sbin(N-/)
 	$path
