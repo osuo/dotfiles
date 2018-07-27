@@ -25,6 +25,7 @@ setopt hist_ignore_dups
 unsetopt auto_menu
 setopt auto_pushd
 setopt auto_cd
+setopt nonomatch
 
 ### for path
 cdpath=(.. ~ ~/git)
